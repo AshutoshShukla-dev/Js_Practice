@@ -1,1 +1,1 @@
-JS PPractice related on Prompt,Function and if else
+JS Practice related on loop,Prompt,Function and if else
