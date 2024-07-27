@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        Principle<input type="text" id="p">
+        Rate<input type="text" id="r">
+        Time<input type="text" id="t">
+        <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+        <script>
+            function calculate() {
+                var p = document.getElementById("p").value;
+                var r = document.getElementById("r").value;
+                var t = document.getElementById("t").value;
+                var result = (p * r * t) / 100;
+                document.getElementById("result").innerHTML = result;
+            }
+        </script>
+
+    </body>
+
+</html>

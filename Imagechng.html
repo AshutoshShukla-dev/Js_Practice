@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div id="div1">
+            <input type="button" id="btn1" value="ClickME" onclick="chng()">
+        </div>
+        
+
+        <script>
+            function chng() {
+                document.getElementById("div1").style.display = "flex";
+                document.getElementById("div1").style.justifyContent = "center";
+                document.getElementById("btn1").value = "Clicked";
+                document.getElementById("btn1").style.background = "linear-gradient(to left,red,blue)";
+                document.getElementById("btn1").style.borderRadius = "25px";
+                document.getElementById("btn1").style.border = "none";
+                document.getElementById("btn1").style.padding = "25px 35px";
+                document.getElementById("btn1").style.color = "White";
+                document.getElementById("btn1").style.fontSize = "18px"
+
+
+
+
+
+            }
+
+        </script>
+
+    </body>
+
+</html>
